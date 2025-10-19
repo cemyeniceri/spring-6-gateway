@@ -35,6 +35,10 @@ management:
     livenessstate:
       enabled: true
 
+logging:
+  level:
+    org.zalando.logbook: TRACE
+
 #          httpserver:
 #            wiretap: true
 #          httpclient:
